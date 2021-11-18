@@ -1,0 +1,9 @@
+{
+	"name": "Auto AI",
+	"description": "",
+	"createdAt": "2021-11-02T06:04+0000",
+	"apikey": "EsvD2Ue93-Ap12L-2743qIFB0gPZerqEns1Nr7ExLuCC"
+}
+
+curl --insecure -X POST --header "Content-Type: application/x-www-form-urlencoded" --header "Accept: application/json" --data-urlencode "grant_type=urn:ibm:params:oauth:grant-type:apikey" --data-urlencode "apikey=EsvD2Ue93-Ap12L-2743qIFB0gPZerqEns1Nr7ExLuCC" "https://iam.cloud.ibm.com/identity/token"
+
